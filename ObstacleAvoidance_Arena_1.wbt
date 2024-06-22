@@ -1,0 +1,101 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/samples/curriculum/protos/Obstacle.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.35805102957280655 0.8669874938122183 0.34660084505820515 1.7451466831312927
+  position 0.18905270898646648 -0.011653777660086129 3.741058189722607
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  rotation 0 0 1 -0.785395307179586
+  floorSize 1.5 1.5
+  floorTileSize 0.2 0.2
+}
+E-puck {
+  translation -0.944481 -0.00329004 -6.39616e-05
+  rotation -3.00786e-09 2.7898e-10 1 0.832693
+  controller "Obstacle Avoidane Fuzzy 2"
+  controllerArgs [
+    ""
+  ]
+}
+Wall {
+  translation 0.183844 -0.381833 0
+  rotation 0 0 1 -0.785395307179586
+  name "wall(5)"
+  size 0.1 0.6 0.1
+}
+Wall {
+  translation -0.190922 -0.190916 0
+  rotation 0 0 1 -0.785395307179586
+  name "wall(2)"
+  size 0.1 0.4 0.1
+}
+Wall {
+  translation -0.388909 0.0353551 0
+  rotation 0 0 1 -0.785395307179586
+  name "wall(4)"
+  size 0.1 1 0.1
+}
+Wall {
+  translation -0.169705 -0.452545 0
+  rotation 0 0 1 0.785403
+  name "wall(3)"
+  size 0.1 0.5 0.1
+}
+Wall {
+  translation 0.176776 0.10607 0
+  rotation 0 0 1 0.785403
+  name "wall(1)"
+  size 0.1 0.8 0.1
+}
+Obstacle {
+  translation 0.28 0.52 0.025
+  color 1 1 1
+}
+Obstacle {
+  translation 0.79 0.08 0.025
+  color 1 1 1
+  name "obstacle(7)"
+}
+Obstacle {
+  translation -0.44 0.28 0.025
+  color 1 1 1
+  name "obstacle(6)"
+}
+Obstacle {
+  translation 0 -1 0.025
+  color 1 1 1
+  name "obstacle(2)"
+}
+Obstacle {
+  translation -0.09 0.22 0.025
+  color 1 1 1
+  name "obstacle(3)"
+}
+Obstacle {
+  translation 0.15 -0.13 0.025
+  color 1 1 1
+  name "obstacle(5)"
+}
+Obstacle {
+  translation -0.64 -0.36 0.025
+  color 1 1 1
+  name "obstacle(4)"
+}
+Obstacle {
+  translation 0.01 0.84 0.025
+  color 1 1 1
+  name "obstacle(1)"
+}
