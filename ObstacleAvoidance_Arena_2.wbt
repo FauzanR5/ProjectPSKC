@@ -1,0 +1,196 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/samples/curriculum/protos/Obstacle.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.3576250651744142 0.8690334065652927 0.34188485054549966 1.7551362558709054
+  position 0.32486722912877797 -0.06358218601981212 3.6984953119540487
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  rotation 0 0 1 -0.785395307179586
+  floorSize 1.5 1.5
+  floorTileSize 0.2 0.2
+}
+Obstacle {
+  translation 0.22 0.28 0.025
+  color 1 1 1
+  name "obstacle(13)"
+}
+Obstacle {
+  translation 0.63 0 0.025
+  color 1 1 1
+  name "obstacle(14)"
+}
+Obstacle {
+  translation 0.38 -0.64 0.025
+  color 1 1 1
+  name "obstacle(15)"
+}
+Obstacle {
+  translation 0.46 -0.35 0.025
+  color 1 1 1
+  name "obstacle(16)"
+}
+Obstacle {
+  translation -0.03 -0.48 0.025
+  color 1 1 1
+  name "obstacle(17)"
+}
+Obstacle {
+  translation -0.4 -0.62 0.025
+  color 1 1 1
+  name "obstacle(18)"
+}
+Obstacle {
+  translation 0.05 -0.64 0.025
+  color 1 1 1
+  name "obstacle(19)"
+}
+Obstacle {
+  translation -0.15 -0.7 0.025
+  color 1 1 1
+  name "obstacle(20)"
+}
+Obstacle {
+  translation -0.39 -0.09 0.025
+  color 1 1 1
+  name "obstacle(21)"
+}
+E-puck {
+  translation -0.944481 -0.00329004 -6.39616e-05
+  rotation -3.00786e-09 2.7898e-10 1 0.832693
+  controller "Obstacle Avoidance PID"
+  controllerArgs [
+    ""
+  ]
+}
+Wall {
+  translation 0.183844 -0.381833 0
+  rotation 0 0 1 -0.785395307179586
+  name "wall(5)"
+  size 0.1 0.6 0.1
+}
+Wall {
+  translation -0.190922 -0.190916 0
+  rotation 0 0 1 -0.785395307179586
+  name "wall(2)"
+  size 0.1 0.4 0.1
+}
+Wall {
+  translation -0.388909 0.0353551 0
+  rotation 0 0 1 -0.785395307179586
+  name "wall(4)"
+  size 0.1 1 0.1
+}
+Wall {
+  translation -0.169705 -0.452545 0
+  rotation 0 0 1 0.785403
+  name "wall(3)"
+  size 0.1 0.5 0.1
+}
+Wall {
+  translation 0.176776 0.10607 0
+  rotation 0 0 1 0.785403
+  name "wall(1)"
+  size 0.1 0.8 0.1
+}
+Obstacle {
+  translation 0.28 0.52 0.025
+  color 1 1 1
+}
+Obstacle {
+  translation 0.28 0.72 0.025
+  color 1 1 1
+  name "obstacle(26)"
+}
+Obstacle {
+  translation 0.79 0.08 0.025
+  color 1 1 1
+  name "obstacle(7)"
+}
+Obstacle {
+  translation 0.65 0.36 0.025
+  color 1 1 1
+  name "obstacle(22)"
+}
+Obstacle {
+  translation 0.73 -0.28 0.025
+  color 1 1 1
+  name "obstacle(23)"
+}
+Obstacle {
+  translation -0.44 0.28 0.025
+  color 1 1 1
+  name "obstacle(6)"
+}
+Obstacle {
+  translation -0.72 0.28 0.025
+  color 1 1 1
+  name "obstacle(8)"
+}
+Obstacle {
+  translation -0.02 0.43 0.025
+  color 1 1 1
+  name "obstacle(9)"
+}
+Obstacle {
+  translation -0.64 0.05 0.025
+  color 1 1 1
+  name "obstacle(10)"
+}
+Obstacle {
+  translation -0.41 0.51 0.025
+  color 1 1 1
+  name "obstacle(11)"
+}
+Obstacle {
+  translation -0.3 0.69 0.025
+  color 1 1 1
+  name "obstacle(12)"
+}
+Obstacle {
+  translation 0 -1 0.025
+  color 1 1 1
+  name "obstacle(2)"
+}
+Obstacle {
+  translation -0.07 0.17 0.025
+  color 1 1 1
+  name "obstacle(25)"
+}
+Obstacle {
+  translation 0.15 -0.13 0.025
+  color 1 1 1
+  name "obstacle(5)"
+}
+Obstacle {
+  translation -0.64 -0.36 0.025
+  color 1 1 1
+  name "obstacle(4)"
+}
+Obstacle {
+  translation -0.38 -0.36 0.025
+  color 1 1 1
+  name "obstacle(27)"
+}
+Obstacle {
+  translation 0.01 0.98 0.025
+  color 1 1 1
+  name "obstacle(1)"
+}
+Obstacle {
+  translation 0.01 0.69 0.025
+  color 1 1 1
+  name "obstacle(24)"
+}
